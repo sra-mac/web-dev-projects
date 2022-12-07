@@ -57,7 +57,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Camila Machado`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm Camila Machado`} <span className="txt-rotate" data-rotate='[ "Web Developer" ]'><span className="wrap">{text}</span></span></h1>
                   {/* <p> I am {`${yearsOld}`} years old, graduated in Computer Science from the Federal Institute of Pará (IFPA). I currently work as a developer and I am studying for a postgraduate course in Informatics and education. I seek to improve my knowledge in Programming to help people, solve real problems and become a recognized professional. I seek to learn more and help those who need it too.</p> */}
                   <p> I am {`${yearsOld}`} years old, I have a degree in Technology in Systems Analysis and Development from the State University of Pará (UEPA). I am currently working as a php/sql web developer. I seek to improve my knowledge in Programming to become a recognized professional in the field. In this way, my goal is to consolidate a career in the field of web development, in addition to being a reference for young people who are starting out in programming.</p>
               </div>}
